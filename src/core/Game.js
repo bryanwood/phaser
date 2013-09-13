@@ -309,8 +309,8 @@ Phaser.Game.prototype = {
 
 			this.stage.boot();
 			this.world.boot();
-			this.state.boot();
 			this.input.boot();
+			this.state.boot();
 			this.sound.boot();
 
 			if (this.renderType == Phaser.CANVAS)
